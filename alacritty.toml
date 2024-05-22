@@ -1,0 +1,49 @@
+
+import = ["~/.config/alacritty/catppuccin.toml"]
+# import = ["~/.config/alacritty/themes/themes/gruvbox_material_hard_dark.toml"]
+
+live_config_reload = true
+
+
+
+#cursor style
+[cursor.style]
+shape = "Beam"
+
+# Font Settings
+[font]
+size = 16
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+# Window settings
+[window]
+opacity = 0.85
+decorations = "none"
+
+# shell = ""
+
+#Padding
+padding = { x = 7, y = 3}
+dynamic_padding = true
+
+# theme
+# Default colors
+[colors.primary]
+# background = '#000000'
+# foreground = '#ffffff'
+
+[colors.cursor]
+text = '#F81CE5'
+cursor = '#ffffff'
+
